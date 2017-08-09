@@ -65,7 +65,7 @@ class Snake(Animal):
   self.health += 20
 
  def display_health(self):
-  super(Snake,self).display_health() # calls parent class Animal method named display_health
+  super(Snake,self).display_health() # calls parent class (Animal) method display_health()
   print ("I am a snake")
 
 
